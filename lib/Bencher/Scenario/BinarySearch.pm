@@ -1,15 +1,15 @@
 package Bencher::Scenario::BinarySearch;
 
-# AUTHORITY
-# DATE
-# DIST
-# VERSION
-
 use 5.010001;
 use strict;
 use warnings;
 
 use Tie::Simple;
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 our @ary_10k_num = (0..9999);
 our @ary_10k_str = ("aaa".."oup");
@@ -46,4 +46,4 @@ our $scenario = {
 
 L<List::BinarySearch::XS> is an order of magnitude faster, but does not support
 tied arrays. On my laptop, binary searching a tied array is about three times
-faster than binary searching a regular array.
+flower than binary searching a regular array.
